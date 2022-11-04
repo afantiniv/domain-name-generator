@@ -22,7 +22,7 @@ function generar() {
       }
     }
   }
-  document.getElementById("texto").innerHTML = dominio;
+  document.getElementById("texto").innerHTML = dominio.join("br");
 }
 
 document.getElementById("boton").onclick = function() {
